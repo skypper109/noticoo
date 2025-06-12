@@ -27,8 +27,6 @@ notifcool/
 │ ├── Employer.java
 │ ├── Abonnement.java
 │ └── Notification.java
-├── repository/ # Accès aux données (SRP + OCP)
-│ └── ...
 ├── services/ # Logique métier (SRP)
 │ └── ...
 ├── view/ # Interfaces utilisateurs (console)
@@ -92,7 +90,7 @@ Un administrateur par défaut sera créé automatiquement avec comme identifiant
 
 ✅ L’application crée automatiquement l’administrateur si aucun n’existe.
 
-💡 Bonnes pratiques appliquées
+## 💡 Bonnes pratiques appliquées
 ✅ Principe SRP : chaque classe a une responsabilité unique
 
 ✅ Principe OCP : code modulaire et extensible
@@ -102,7 +100,7 @@ Un administrateur par défaut sera créé automatiquement avec comme identifiant
 ✅ Utilisation de PreparedStatement pour éviter les injections SQL
 
 ---
-### 🙌 Auteur
+## 🙌 Auteur
 
 ---
 Projet réalisé par **Diallo Ibrahim Sory**
@@ -111,7 +109,7 @@ Projet réalisé par **Diallo Ibrahim Sory**
 
 ---
 
-### 📄 Licence
+## 📄 Licence
 
 
 Ce projet est open-source. Utilisation libre à des fins pédagogiques ou personnelles.
