@@ -1,6 +1,6 @@
-# 📢 NotifCool – Application de Notification pour Employés
+# 📢 NotiCoo – Application de Notification pour Employés
 
-NotifCool est une application Java console conçue pour gérer l’envoi de notifications à des employés abonnés à un service. Ce projet utilise une architecture propre respectant les principes **SOLID** et s’appuie sur **SQLite** comme base de données locale.
+NotiCoo est une application Java console conçue pour gérer l’envoi de notifications à des employés abonnés à un service. Ce projet utilise une architecture propre respectant les principes **SOLID** et s’appuie sur **SQLite** comme base de données locale.
 
 ---
 
@@ -10,7 +10,7 @@ NotifCool est une application Java console conçue pour gérer l’envoi de noti
 - ✅ **3 tentatives maximum** de connexion
 - 📬 **Envoi de notifications** aux abonnés
 - 📜 **Historique des notifications** par utilisateur
-- 📩 **Envoi automatique d’e-mails** (mock)
+- 📩 **Envoi automatique d’e-mails**
 - 👥 **Ajout / listing des employés**
 - 🔔 **Abonnement / Désabonnement / Réabonnement**
 - 🧱 Structure modulaire (DBgestion, Services, View)
