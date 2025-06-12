@@ -6,7 +6,7 @@ public class Connexion {
     public static String  urlDB = "jdbc:sqlite:notifDB.sqlite"; //Le nom de la base de donnée
 
     //Methode qui va gerer la connexion
-    public Connection connect(){
+    public static Connection connect(){
        try { //On essaye pour pas couper le programme en cas d'erreur
           return DriverManager.getConnection(urlDB); //L'instruction qui fait la connexion à la base de donnée reponse de type
        } catch (SQLException e) {//Exception capter et stocker dans e pour pas arreter le programme
@@ -16,7 +16,7 @@ public class Connexion {
     }
 
     //La methode pour la creation des tables dans la base de donnée
-    public void init(){
+    public static void init(){
         String deleteTable4 = """
                 DROP TABLE IF EXISTS employes;
                 """;
