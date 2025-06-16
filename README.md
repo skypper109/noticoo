@@ -105,7 +105,7 @@ Un administrateur par défaut sera créé automatiquement avec comme identifiant
 ---
 Projet réalisé par **Diallo Ibrahim Sory**
 
-📧 Contact : ibrahimsorydiallo204@outlook.com
+📧 Contact : ibrahimsorydiallo204@outlook.fr
 
 ---
 
